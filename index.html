@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+     <title>About</title>
+     <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+  .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color:#4aaaa5;
+      margin-top:30px;
+      
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    .col-sm-3sidenav{
+      border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+
+    }
+    
+    .auth-image {
+      float: left;
+      padding-top: 5px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+    
+    .social{
+      width:100px;
+      height:100px;
+
+    }
+
+  .navbar-toggle{
+    color:white;
+  }
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 8px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    .mxheight{
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background: #666;
+  color: #fff;
+  padding: 42px 0;
+  clear: both;
+  border-top: 20px solid #4aaaa5;
+  font-size: 12px;
+  text-align: center;
+  
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>  
+    
+</head> 
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="index.html">Rick Romero</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+        
+      <div class="container-fluid text-center">    
+        <div class="row content">
+          <div class="col-sm-3 sidenav">
+          </div>
+
+          <div class="col-sm-6 text-left mxheight"> 
+
+
+    <h1>About Me</h1>
+    <img src="assets/images/home.jpeg"class="auth-image" alt="background" style="width:734px; height:210px;">
+
+     <p>Hi Im Rick Romero. I was born and raised in Southern California.
+        I've lived my whole life in California and I am proud to be a true Californian.
+       I am the youngest of four siblings. During the day I am a tanker driver, which means 
+       I get to drive a truck and trailer that weighs about 80,000 pounds and is loaded with highly 
+       explosive fuel. I have been a truck driver for the last 12 years. I've seen a lot and I've done a lot. 
+       The most common question I get asked is, "Aren't you scared of blowing up?" 
+       My reply is always the same "I'm concerned, never scared. I'm cautious, never afraid".</p>
+      </p>On my down time I like to hang out and train at the local boxing gym or spend some time with my two small 
+      dogs that I consider my children. I also like to compose, write and produce music. 
+       I'm a fan of the rockabilly scene and from time to time I like to head out to a good show and catch up with old friends.
+       Other hobbies I enjoy doing are restoring my 1967 Pontiac Catalina. I have a love and hate relationship with this vehicle.
+       I love it when everything is working and performing right, but I hate it when something breaks down and I have to fork out 
+       the cash to get it fixed. I also enjoy traveling. I try to travel as much as possible.
+       There is something about going to another country and experiencing the culture and its history. It always makes me feel like 
+       im in a different world and it's something I cant get enough of.</p> 
+      </div>
+
+       <div class="col-sm-3 sidenav">
+          <div class="connect">
+              <h2>Connect With Me</h2>
+              <img src="assets/images/git hub.jpg" class="social" alt="GitHub">
+              <img src="assets/images/Linkedin.png" class="social" alt="Linkedin">
+              <img src="assets/images/stackoverflow.png" class="social" alt="Stack OverFlow"> 
+          </div>
+        </div>
+      </div>
+    </div>
+   
+   
+
+    <footer class="container-fluid text-center">
+        Copyright&copy
+    
+    </footer>
+
+</body>
+</html>
