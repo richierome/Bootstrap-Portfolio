@@ -70,6 +70,7 @@ h2, h3{
   text-decoration: none;
 }
 
+
 nav{
   float: right;
   margin-top: 25px;
@@ -92,6 +93,7 @@ nav a:first-child{
 /*main*/
 #main-container{
   padding-top: 20px;
+  
 }
 
 .main-section{
