@@ -1,82 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+ 
      <title>About</title>
      <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css?family=Alice|Black+Ops+One|Teko&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <style>
-  /* Remove the navbar's default margin-bottom and rounded borders */ 
-  .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-      background-color:black;
-      margin-top:0px;
-      padding-top: 5px;
-      
-    }
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 550px}
-    
-    .col-sm-3sidenav{
-      border-bottom: 2px solid #eee;
-    padding-bottom: 20px;
-    margin-bottom: 15px;
-    line-height: 22px;
-
-    }
-    
-    .auth-image {
-      float: left;
-      padding-top: 5px;
-      padding-right: 10px;
-      padding-bottom: 10px;
-    }
-    
-    .social{
-      width:100px;
-      height:100px;
-
-    }
-
-  .navbar-toggle{
-    color:white;
-    
-  }
-
-    /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 8px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    .mxheight{
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    footer {
-   background: black;
-  color: #fff;
-  padding: 45px 0;
-  clear: both;
-  border-top: 40px solid rgba(169, 169, 169, 0.212);
-  font-size: 12px;
-  text-align: center;
   
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
   </style>  
     
 </head> 
@@ -90,13 +25,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand" href="index.html">Rick Romero</a>
+            <a class="navbar-brand " id="name-title" href="index.html ">Rick Romero</a>
           </div>
           <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">About</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li class="active"><a id="name-color" href="index.html">About</a></li>
+              <li><a  id="name-color" href="portfolio.html">Portfolio</a></li>
+              <li><a  id="name-color" href="contact.html">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               
@@ -108,17 +43,18 @@
       <div class="container-fluid text-center">    
         <div class="row content">
           <div class="col-sm-3 sidenav">
+            
           </div>
 
           <div class="col-sm-6 text-left mxheight"> 
 
 
     <h1>About Me</h1>
-    <img src="assets/images/home.jpeg"class="auth-image" alt="background" style="width:100%; height:35%;">
+    <img src="assets/images/me2.jpg"class="auth-image-pic" alt="background" >
 
-     <p>Hi, Im Rick Romero. I am currently working on my certification for full stack web developer through the bootcamp
+     <p>Hi, I'm Rick. I am currently working on my certification for full stack web developer through the bootcamp
       coding program at University of California Riverside. After completing this program I am focusing my skills as a front end developer.
-      I am from Southern California, born and rasied. I have a passion for music, traveling and visual art.</p>
+      I am from Southern California, born and rasied. I have a passion for music, traveling and visual arts.</p>
     <p></p>
       </div>
 
@@ -132,7 +68,12 @@
                 class="social" alt="Linkedin"></a>
              
               <img src="assets/images/stackoverflow.png" class="social" alt="Stack OverFlow"> 
-          </div>
+
+                <div></div>
+                <iframe id="music" width="25%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/529302267&color=%230b0a0a&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+
+            </div>
         </div>
       </div>
     </div>

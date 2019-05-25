@@ -6,11 +6,13 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style2.css">
+     <link href="https://fonts.googleapis.com/css?family=Alice|Black+Ops+One|Teko&display=swap" rel="stylesheet">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
      <style>
      /* Remove the navbar's default margin-bottom and rounded borders */ 
-  .navbar {
+  /* .navbar {
       margin-bottom: 0;
       border-radius: 0;
       background-color:black;
@@ -18,9 +20,17 @@
       padding-top: 10px;
       
     }
+
+    #name-color{
+      color: red;
+    }
+
+    #name-color:hover {
+      color:white;
+    } */
     
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 550px}
+    /* .row.content {height: 550px}
     
     .col-sm-3sidenav{
       border-bottom: 2px solid #eee;
@@ -35,10 +45,10 @@
       width:100px;
       height:100px;
 
-}
+} */
 
 /*form*/
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -82,19 +92,19 @@ input[type=submit]{
   padding: 10px 30px;
   cursor: pointer;
 
-}
+} */
  /* Set gray background color and 100% height */
-.sidenav {
+/* .sidenav {
     padding-top: 8px;
     background-color: #f1f1f1;
     height: 100%;
 }
-
+ */
 
 
 
 /* Set black background color, white text and some padding */
-footer {
+/* footer {
     background: black;
     color: #fff;
     padding: 42px 0;
@@ -104,15 +114,15 @@ footer {
     text-align: center;
   
 }
-    
+     */
 /* On small screens, set height to 'auto' for sidenav and grid */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
 .sidenav {
     height: auto;
     padding: 15px;
 }
 .row.content {height:auto;} 
-}
+} */
 </style>  
 </head> 
 <body>
@@ -124,13 +134,13 @@ footer {
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>                        
                     </button>
-                    <a class="navbar-brand" href="index.html">Rick Romero</a>
+                    <a class="navbar-brand" id="name-title" href="index.html">Rick Romero</a>
                   </div>
                   <div class="collapse navbar-collapse" id="myNavbar">
                       <ul class="nav navbar-nav navbar-right">       
-                      <li><a href="index.html">About</a></li>
-                      <li><a href="Portfolio.html">Portfolio</a></li>
-                      <li class="active"><a href="Contact.html">Contact</a></li>
+                      <li><a id="name-color" href="index.html">About</a></li>
+                      <li><a id="name-color" href="Portfolio.html">Portfolio</a></li>
+                      <li class="active"><a id="name-color" href="Contact.html">Contact</a></li>
                       </ul>
                     <ul class="nav navbar-nav navbar-right">
                       
@@ -144,25 +154,25 @@ footer {
           <div class="col-sm-3 sidenav">
          </div>
         
-    <div class="col-sm-6 text-left"> 
+    <div class="col-sm-6 text-left mxheight"> 
                 <h1>Contact</h1>
     
             <form id="contact-form">
                 <ul>
                 <li>
-                <lable for="name">Name</lable>
+                <lable for="name" id="name">Name</lable>
                 <input type="text" name="name" id="name"
                 placeholder="John Smith"
                 required="required">
                 </li>
                  <li>
-                <label for="email">Email</label>
+                <label for="email" id="email">Email</label>
                 <input type="text" name="email" id="email"
                 placeholder="example@gmail.com"
                 required="required">
             </li>
             <li>
-                <label for="message">Message</label>
+                <label for="message" id="message">Message</label>
                 <textarea id="message" name="message"
                 required="required"></textarea>
             </li>

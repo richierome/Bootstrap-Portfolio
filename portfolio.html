@@ -5,11 +5,13 @@
      <title>Portfolio</title>   
      <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="style2.css">
+     <link href="https://fonts.googleapis.com/css?family=Alice|Black+Ops+One|Teko&display=swap" rel="stylesheet">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
      <style>
      /* Remove the navbar's default margin-bottom and rounded borders */ 
-     .navbar {
+     /* .navbar {
          margin-bottom: 0;
          border-radius: 0;
          background-color:black;
@@ -17,9 +19,16 @@
          padding-top: 5px;
          
        }
+       #name-color{
+         color:red;
+       }
+
+       #name-color:hover {
+      color:white;
+    } */
        
        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-       .row.content {height: 550px}
+       /* .row.content {height: 550px}
        
        .col-sm-3sidenav{
          border-bottom: 2px solid #eee;
@@ -39,8 +48,8 @@
      .navbar-toggle{
        color:white;
      }
-
- /*portfolio*/
+/*  */
+ /* portfolio
 .work{
   width: 274px;
   overflow: auto;
@@ -77,20 +86,18 @@
   line-height: 30px;
   margin-bottom: 0;
   font-weight: 300;
-}  
+}   */ */
 
-.mxheight{
-  height: 100%;
-}
+
        /* Set lite gray background color and 100% height */
-       .sidenav {
+       /* .sidenav {
          padding-top: 8px;
          background-color: #f1f1f1;
          height: 100%;
-       }
+       } */
        
        /* Set dark gray background color, white text and some padding */
-       footer {
+       /* footer {
          background: black;
      color: #fff;
      padding: 45px 0;
@@ -99,17 +106,17 @@
      font-size: 12px;
      text-align: center;
      
-       }
+       } */
        
        /* On small screens, set height to 'auto' for sidenav and grid */
-       @media screen and (max-width: 767px) {
+       /* @media screen and (max-width: 767px) {
          .sidenav {
            height: auto;
            padding: 15px;
          }
          .row.content {height:auto;} 
        }
-       
+        */
      </style>  
 </head> 
 <body>
@@ -122,15 +129,15 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>                        
             </button>
-            <a class="navbar-brand" href="index.html">Rick Romero</a>
+            <a class="navbar-brand" id="name-title" href="index.html" id="name-color">Rick Romero</a>
           </div>
 
           <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
               
-              <li><a href="index.html">About</a></li>
-              <li class="active"><a href="portfolio.htm">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a id="name-color" href="index.html">About</a></li>
+              <li class="active"><a id="name-color" href="portfolio.htm">Portfolio</a></li>
+              <li><a id="name-color" href="contact.html">Contact</a></li>
              
             </ul>
           </div>
@@ -147,26 +154,26 @@
           <h1>Portfolio</h1>
 
             <div class="work">
-              <a href="https://github.com/richierome/Train"> 
-                <img src="assets/images/train 2.jpg" class="auth-image"
-                alt="dog"></a>
+              <a href="https://github.com/frankramos1997/Catch-A-Fade/tree/richie_rome"> 
+                <img src="assets/images/barber.png" class="auth-image"
+                alt="barber"></a>
            
-            <h3>Train Scheduale</h3>
+            <h3>Barber Shop App</h3>
             </div>
 
             <div class="work">
               <a href="https://github.com/richierome/unit-4-game">
-            <img src="assets/images/games.jpg" class="auth-image"
+            <img src="assets/images/game.png" class="auth-image"
              alt="games"></a>
             <h3>Games</h3>
             </div>
 
            <div class="work">
-            <a href="https://github.com/richierome/Giphy"> 
-            <img src="assets/images/keyboard.jpg" class="auth-image" 
-            alt="random"></a>
+            <a href="https://github.com/richierome/Train"> 
+            <img src="assets/images/train 2.jpg" class="auth-image" 
+            alt="train"></a>
             
-              <h3>Having Fun</h3>
+              <h3>Train Schedule</h3>
            </div>
 
           <div class="work">
@@ -193,7 +200,7 @@
         </div>
       </div>
     
-<footer class="container-fluid text-center">
+<footer class="container-fluid text-center fixed-bottom" >
     Copyright&copy
 
 </footer>
