@@ -99,7 +99,7 @@
     /* background-color: #f1f1f1; */
     height: 100%;
   }
-  .mxheight{
+  .mxheight-index{
     height: 100%;
     /* background: url("assets/images/dark3.jpg") no-repeat center center fixed;  */
      background-color: black;
@@ -108,6 +108,24 @@
      -o-background-size: cover;
      background-size: cover;
   }
+  .mxheight-contact{
+    height: 100%;
+    /* background: url("assets/images/dark3.jpg") no-repeat center center fixed;  */
+     background-color: black;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+  }
+  .mxheight-portfolio{
+    height: 100%;
+     background-color: black;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+  }
+ 
   
   /* Set black background color, white text and some padding */
   footer {
@@ -120,18 +138,136 @@
     text-align: center;
 /* border-bottom: 10px; */
 
+  }
+  
+/* 
+@media screen and (min-width: 1501px) {
+ 
+ .mxheight-index {
+  height: 160%;
+} 
+.mxheight-portfolio {
+  height: 160%;
+} 
+.mxheight-contact {
+  height: 160%;
+} 
+.work:nth-child(even) {
+  margin-left: 70px !important;
+}
+.work:nth-child(odd) {
+margin-left: 65px !important;
+}
+} */
 
-  }
-  
-  /* On small screens, set height to 'auto' for sidenav and grid */
-  @media screen and (max-width: 1500px) {
-    .sidenav {
+
+  @media screen and (max-width: 1441px) {
+    /* .sidenav {
       height: auto;
-      /*padding: 15px;*/
+     
     }
-    .row.content {height:auto;} 
+    .row.content {height:auto;}  
+   */
+  .mxheight-index {
+    height: 105% ; 
+  } 
+  .mxheight-portfolio {
+    height: 100%;
+  } 
+  .mxheight-contact {
+    height: 100%;
+  } 
+  .work:nth-child(even) {
+    margin-left: 70px !important;
+}
+.work:nth-child(odd) {
+  margin-left: 26px !important;
+}
+}
   
-  }
+@media screen and (max-width: 1025px){
+  .work:nth-child(even) {
+    margin-left: 95px !important;
+}
+.work:nth-child(odd) {
+  margin-left: 95px !important;
+}
+.sidenav {
+  height: auto;
+  /*padding: 15px;*/
+}
+ /* p{font-size: 40px;
+}  */
+.mxheight-portfolio {
+  height: 200%;
+} 
+.mxheight-index {
+  height: 150%;
+} 
+
+
+}
+
+
+@media screen and (max-width: 769px){
+  .work:nth-child(even) {
+    margin-left: 45px !important;
+}
+.work:nth-child(odd) {
+  margin-left: 45px !important;
+}
+.sidenav {
+  height: auto;
+  /*padding: 15px;*/
+}
+
+.row.content {height:auto;}  
+} 
+
+
+
+@media screen and (max-width: 426px){
+  .work:nth-child(even) {
+    margin-left: 55px !important;
+}
+.work:nth-child(odd) {
+  margin-left: 55px !important;
+}
+
+ p{
+ font-size: 25px;
+} 
+} 
+
+@media screen and (max-width: 376px){
+  .work:nth-child(even) {
+    margin-left: 35px !important;
+}
+.work:nth-child(odd) {
+  margin-left: 35px !important;
+}
+ /* .auth-image-pic{
+  width:100% !important;
+ 
+}  */
+} 
+
+
+@media screen and (max-width: 321px){
+  .work:nth-child(even) {
+    margin-left: 5px !important ;
+}
+.work:nth-child(odd) {
+  margin-left: 5px !important;
+}
+#name-title{
+  font-size:40px
+}
+.auth-image-pic{
+  width:50%;
+  
+}
+}
 
  
 
@@ -147,85 +283,14 @@
     
   }
 
-  @media screen and (min-width: 320px){
-    .work:nth-child(even) {
-      margin-left: 5px !important ;
-  }
-  .work:nth-child(odd) {
-    margin-left: 5px !important;
-  }
-  #name-title{
-    font-size:40px
-  }
-  .auth-image-pic{
-    width:50%;
-    
-  }
-  }
-  
-    @media screen and (min-width: 375px){
-    .work:nth-child(even) {
-      margin-left: 40px !important;
-  }
-  .work:nth-child(odd) {
-    margin-left: 40px !important;
-  }
-   /* .auth-image-pic{
-    width:100% !important;
-   
-  }  */
-} 
 
-   @media screen and (min-width: 425px){
-    .work:nth-child(even) {
-      margin-left: 50px !important;
-  }
-  .work:nth-child(odd) {
-    margin-left: 50px !important;
-  }
-  
-   p{
-   font-size: 25px;
-  } 
-} 
-
-  @media screen and (min-width: 768px){
-    .work:nth-child(even) {
-      margin-left: 50px !important;
-  }
-  .work:nth-child(odd) {
-    margin-left: 50px !important;
-  }
-  .sidenav {
-    height: auto;
-    /*padding: 15px;*/
-  }
-} 
-
-
-@media screen and (min-width: 1024px){
-  .work:nth-child(even) {
-    margin-left: 55px !important;
-}
-.work:nth-child(odd) {
-  margin-left: 55px !important;
-}
-.sidenav {
-  height: auto;
-  /*padding: 15px;*/
-}
-p{font-size: 40px;
-}
-} 
-
-/*  
   .work:nth-child(even){
-    margin-left:60px;
+    margin-left:60px  ;
   }
   
   .work:nth-child(odd){
-    margin-left:60px;
-  }    */
+    margin-left:60px ;
+  }    
 
   /*  */
   .work img{
