@@ -222,6 +222,10 @@ margin-left: 65px !important;
 }
 
 .row.content {height:auto;}  
+
+.auth-image-pic {
+  width: 247px !important;
+}
 } 
 
 
@@ -246,11 +250,11 @@ margin-left: 65px !important;
 .work:nth-child(odd) {
   margin-left: 35px !important;
 }
- /* .auth-image-pic{
-  width:100% !important;
  
-}  */
+.auth-image-pic {
+  width: 255px !important ;
 } 
+}
 
 
 @media screen and (max-width: 321px){
@@ -264,7 +268,7 @@ margin-left: 65px !important;
   font-size:40px
 }
 .auth-image-pic{
-  width:50%;
+  width: 300px !important; ;
   
 }
 }
