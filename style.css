@@ -262,10 +262,10 @@ p {
 
 @media screen and (max-width: 321px){
   .work:nth-child(even) {
-    margin-left: 5px !important ;
+    margin-left: 1px !important ;
 }
 .work:nth-child(odd) {
-  margin-left: 5px !important;
+  margin-left: 1px !important;
 }
 #name-title{
   font-size:40px
@@ -296,7 +296,7 @@ p {
   }
   
   .work:nth-child(odd){
-    margin-left:60px ;
+    margin-left:53px ;
   }    
 
   /*  */
