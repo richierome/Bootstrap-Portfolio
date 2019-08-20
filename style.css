@@ -245,10 +245,10 @@ margin-left: 65px !important;
 
 @media screen and (max-width: 376px){
   .work:nth-child(even) {
-    margin-left: 35px !important;
+    margin-left: 30px !important;
 }
 .work:nth-child(odd) {
-  margin-left: 35px !important;
+  margin-left: 30px !important;
 }
  
 .auth-image-pic {
