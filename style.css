@@ -159,6 +159,24 @@
 margin-left: 65px !important;
 }
 } */
+@media screen and (min-width: 2560px) {
+  /* .sidenav {
+    height: auto;
+   
+  }
+  .row.content {height:auto;}  
+ */
+.mxheight-index {
+  height: 100% ; 
+} 
+.mxheight-portfolio {
+  height: 100%;
+} 
+.mxheight-contact {
+  height: 100%;
+} 
+}
+
 
 
   @media screen and (max-width: 1441px) {
@@ -169,7 +187,7 @@ margin-left: 65px !important;
     .row.content {height:auto;}  
    */
   .mxheight-index {
-    height: 105% ; 
+    height: 100% ; 
   } 
   .mxheight-portfolio {
     height: 100%;
